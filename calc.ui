@@ -147,7 +147,7 @@
             <item row="4" column="4">
              <widget class="QPushButton" name="pushButton_multiply">
               <property name="text">
-               <string>*</string>
+               <string>×</string>
               </property>
              </widget>
             </item>
@@ -222,7 +222,7 @@
             <item row="5" column="4">
              <widget class="QPushButton" name="pushButton_divide">
               <property name="text">
-               <string>/</string>
+               <string>÷</string>
               </property>
              </widget>
             </item>
@@ -511,6 +511,8 @@
      <string>File</string>
     </property>
     <addaction name="actionQuit"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
    </widget>
    <addaction name="menuFile"/>
   </widget>
@@ -524,6 +526,11 @@
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
   <action name="actionQuit">
+   <property name="text">
+    <string>Settings</string>
+   </property>
+  </action>
+  <action name="actionExit">
    <property name="text">
     <string>Exit</string>
    </property>
