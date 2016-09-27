@@ -17,6 +17,8 @@ public:
 
 private slots:
     void insert_str( const QString &str );
+    void set_str( const QString &str );
+
     void on_pushButton_n1_clicked();
     void on_pushButton_n2_clicked();
     void on_pushButton_n3_clicked();
@@ -33,9 +35,7 @@ private slots:
     void on_pushButton_minus_clicked();
     void on_pushButton_multiply_clicked();
     void on_pushButton_divide_clicked();
-
     void on_pushButton_enter_clicked();
-
     void on_pushButton_backspace_clicked();
 
 private:
